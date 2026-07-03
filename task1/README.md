@@ -77,4 +77,19 @@ Stratified 80/20 train-test split used to preserve class ratio (32,950 train / 8
 ## 🧰 Tools & Libraries
 `pandas`, `numpy`, `scikit-learn`, `matplotlib`, `seaborn`, `shap`
 
-## 📁 Repository Structure
+## ▶️ How to Run
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn shap
+jupyter notebook task1/term_deposit_prediction.ipynb
+```
+Then Run All Cells — the dataset downloads automatically at the start of the notebook.
+
+## ✅ Task Checklist
+- [x] Problem statement & objective
+- [x] Dataset description and loading
+- [x] Data cleaning and preprocessing
+- [x] Exploratory Data Analysis (EDA)
+- [x] Model building and evaluation (Logistic Regression, Random Forest)
+- [x] Confusion Matrix, F1-Score, ROC Curve
+- [x] SHAP explanation for 5+ predictions
+- [x] Final conclusion with insights
